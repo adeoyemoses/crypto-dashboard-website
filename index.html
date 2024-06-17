@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLFUND Lending and Borrowing Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="general-container">
+
+        <div id="leftSide">
+            <a href="#" class="margin-set-logo"><img src="./assets/apple.svg" alt="polfund logo">Polfund</a>
+            <div class="user-profile">
+                <div class="user-profile-image">
+                    <img src="./assets/Group 10.svg" class="user-image">
+                </div>
+                <p>NFT lord crypto844.sol</p>
+                <img src="./assets/down arrow.svg" id="downArrow">
+            </div>
+            <div id="user-profile-links" class="margin-set">
+                <a href="#" class="profile-links"><img src="./assets/House.svg" alt="Dashboard icon">Dashboard</a>
+                <a href="#" class="profile-links"><img src="./assets/users.svg" alt="crowd fund icon">Crowd fund</a>
+                <a href="#" class="profile-links"><img src="./assets/Internet.svg" alt="Campaign icon">Campaign</a>
+                <a href="#" class="profile-links"><img src="./assets/Reload.svg" alt="Swap icon">Swap</a>
+            </div>
+        </div>
+        <!-- ======= END OF LEFTSIDE OF THE GENERAL ======== -->
+
+        <div id="rightSide">
+            <h2>Lending and borrowing</h2>
+            <p class="asset">Asset to Lend</p>
+            <div class="right-side">
+                <div class="lending active">
+                    <div class="lending-text">
+                        <img src="./assets/up arrow.svg">
+                        <p>Lending</p>
+                    </div>
+                </div>
+
+                <div class="borrowing">
+                    <div class="borrowing-text">
+                        <img src="./assets/down arrow 2.svg">
+                        <p>Borrowing</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ======= END OF UPPER PART OF RIGHTSIDE ======== -->
+
+            <div class="dashboard-container">
+                <div class="dashboard-heading-text">
+                    <div class="heading-text">
+                        
+                        <a href="#" class="first-heading-text">Assets
+                            <img class="asset-menu-icon" id="transAnime" src="./assets/down arrow.svg">
+                            <div class="asset-icon-inner" id="assetIconInner">
+                                <div class="asset-icon-text" id="first-asset-icon-text">
+                                    <div id="hoverStyle">
+                                        <img src="./assets/javascript asset/User Interface/Vector.svg">
+                                        <p>Crypto</p>
+                                    </div> 
+                                </div>
+                                <div class="asset-icon-text">
+                                    <div id="hoverStyle">
+                                        <img src="./assets/javascript asset/Arrows/Vector.svg">
+                                        <p>NFT</p>
+                                    </div>  
+                                </div>
+                                <div class="asset-icon-text">
+                                    <div id="hoverStyle">
+                                        <img src="./assets/javascript asset/Arrows/Vector-1.svg">
+                                        <p>Digital asset</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    
+                        <a href="#">Balance</a>
+                        <a href="#" class="third-heading-text">Type</a>
+                    </div>
+
+                    <div class="heading-text-break">
+                        <hr>
+                        <p>Lending history</p>
+                    </div>  
+                </div>
+            <!-- ======= END OF ALL DASHBOARD HEADING TEXT ======== -->
+
+                <div class="dashboard-coin-container">
+                    <div id="left-dashboard-coin-container">
+                        <div class="coin-details">
+                            <div class="coin-logo">
+                                <img src="./assets/Ellipse 12.svg">
+                                <div class="coin-logo-text">
+                                    <p>BNB</p>
+                                    <div class="coin-logo-inner-text" id="uniqueColor">
+                                        <p>$132.02</p>
+                                        <div class="unique-color">
+                                            <p>+2.17%</p>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="coin-detail-price">
+                                <p class="token-amount">300.00</p>
+                                <p class="coin-price">$200.00</p>
+                            </div>
+
+                            <p class="crypto">Crypto</p>
+
+                            <button>Borrow</button>
+
+                            <div id="menuPopupContainer">
+                                <img class="menu-icon" src="./assets/menu.svg">
+                                <div class="menu-icon-inner" id="menuIconInner">
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/User Interface/Vector.svg">
+                                        <p>All asset</p>
+                                    </div>
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/Arrows/Vector.svg">
+                                        <p>Supplied asset</p>
+                                    </div>
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/Arrows/Vector-1.svg">
+                                        <p>Digital asset</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- 2 -->
+
+                        <div class="coin-details">
+                            <div class="coin-logo">
+                                <img src="./assets/Ellipse 12 (1).svg">
+                                <div class="coin-logo-text">
+                                    <p>Bitcoin</p>
+                                    <div class="coin-logo-inner-text" id="uniqueColor">
+                                        <p>$132.02</p>
+                                        <div class="unique-color">
+                                            <p>+2.17%</p>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="coin-detail-price">
+                                <p class="token-amount">300.00</p>
+                                <p class="coin-price">$200.00</p>
+                            </div>
+
+                            <p class="crypto">Crypto</p>
+
+                            <button id="fadeBtnBg">Borrow</button>
+                            <div id="menuPopupContainer">
+                                <img class="menu-icon" src="./assets/menu.svg">
+                                <div class="menu-icon-inner" id="menuIconInner">
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/User Interface/Vector.svg">
+                                        <p>All asset</p>
+                                    </div>
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/Arrows/Vector.svg">
+                                        <p>Supplied asset</p>
+                                    </div>
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/Arrows/Vector-1.svg">
+                                        <p>Digital asset</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+
+                        <!-- 3 -->
+
+                        <div class="coin-details">
+                            <div class="coin-logo">
+                                <img src="./assets/Ellipse 12 (2).svg">
+                                <div class="coin-logo-text">
+                                    <p>Eth</p>
+                                    <div class="coin-logo-inner-text" id="uniqueColor">
+                                        <p>$132.02</p>
+                                        <div class="unique-color">
+                                            <p>+2.17%</p>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="coin-detail-price">
+                                <p class="token-amount">300.00</p>
+                                <p class="coin-price">$200.00</p>
+                            </div>
+
+                            <p class="crypto">Crypto</p>
+
+                            <button>Borrow</button>
+
+                            <div id="menuPopupContainer">
+                                <img class="menu-icon" src="./assets/menu.svg">
+                                <div class="menu-icon-inner" id="menuIconInner">
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/User Interface/Vector.svg">
+                                        <p>All asset</p>
+                                    </div>
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/Arrows/Vector.svg">
+                                        <p>Supplied asset</p>
+                                    </div>
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/Arrows/Vector-1.svg">
+                                        <p>Digital asset</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- 4 -->
+
+                        <div class="coin-details">
+                            <div class="coin-logo">
+                                <img src="./assets/Ellipse 12 (3).svg">
+                                <div class="coin-logo-text">
+                                    <p>BNB</p>
+                                    <div class="coin-logo-inner-text" id="uniqueColor">
+                                        <p>$132.02</p>
+                                        <div class="unique-color">
+                                            <p>+2.17%</p>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="coin-detail-price">
+                                <p class="token-amount">300.00</p>
+                                <p class="coin-price">$200.00</p>
+                            </div>
+
+                            <p class="crypto">Crypto</p>
+
+                            <button id="fadeBtnBg">Borrow</button>
+
+                            <div id="menuPopupContainer">
+                                <img class="menu-icon" src="./assets/menu.svg">
+                                <div class="menu-icon-inner" id="menuIconInner">
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/User Interface/Vector.svg">
+                                        <p>All asset</p>
+                                    </div>
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/Arrows/Vector.svg">
+                                        <p>Supplied asset</p>
+                                    </div>
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/Arrows/Vector-1.svg">
+                                        <p>Digital asset</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- 5 -->
+
+                        <div class="coin-details">
+                            <div class="coin-logo">
+                                <img src="./assets/Ellipse 12.svg">
+                                <div class="coin-logo-text">
+                                    <p>BNB</p>
+                                    <div class="coin-logo-inner-text" id="uniqueColor">
+                                        <p>$132.02</p>
+                                        <div class="unique-color">
+                                            <p>+2.17%</p>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="coin-detail-price">
+                                <p class="token-amount">300.00</p>
+                                <p class="coin-price">$200.00</p>
+                            </div>
+
+                            <p class="crypto">Crypto</p>
+
+                            <button>Borrow</button>
+
+                            <div id="menuPopupContainer">
+                                <img class="menu-icon" src="./assets/menu.svg">
+                                <div class="menu-icon-inner" id="menuIconInner">
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/User Interface/Vector.svg">
+                                        <p>All asset</p>
+                                    </div>
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/Arrows/Vector.svg">
+                                        <p>Supplied asset</p>
+                                    </div>
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/Arrows/Vector-1.svg">
+                                        <p>Digital asset</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- 6 -->
+                        <div class="coin-details">
+                            <div class="coin-logo">
+                                <img src="./assets/Ellipse 12.svg">
+                                <div class="coin-logo-text">
+                                    <p>BNB</p>
+                                    <div class="coin-logo-inner-text" id="uniqueColor">
+                                        <p>$132.02</p>
+                                        <div class="unique-color">
+                                            <p>+2.17%</p>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="coin-detail-price">
+                                <p class="token-amount">300.00</p>
+                                <p class="coin-price">$200.00</p>
+                            </div>
+
+                            <p class="crypto">Crypto</p>
+
+                            <button>Borrow</button>
+
+                            <div id="menuPopupContainer">
+                                <img class="menu-icon" src="./assets/menu.svg">
+                                <div class="menu-icon-inner" id="menuIconInner">
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/User Interface/Vector.svg">
+                                        <p>All asset</p>
+                                    </div>
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/Arrows/Vector.svg">
+                                        <p>Supplied asset</p>
+                                    </div>
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/Arrows/Vector-1.svg">
+                                        <p>Digital asset</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- 7 -->
+
+                        <div class="coin-details">
+                            <div class="coin-logo">
+                                <img src="./assets/Ellipse 12.svg">
+                                <div class="coin-logo-text">
+                                    <p>BNB</p>
+                                    <div class="coin-logo-inner-text" id="uniqueColor">
+                                        <p>$132.02</p>
+                                        <div class="unique-color">
+                                            <p>+2.17%</p>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="coin-detail-price">
+                                <p class="token-amount">300.00</p>
+                                <p class="coin-price">$200.00</p>
+                            </div>
+
+                            <p class="crypto">Crypto</p>
+
+                            <button>Supply</button>
+
+                            <div id="menuPopupContainer">
+                                <img class="menu-icon" src="./assets/menu.svg">
+                                <div class="menu-icon-inner" id="menuIconInner">
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/User Interface/Vector.svg">
+                                        <p>All asset</p>
+                                    </div>
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/Arrows/Vector.svg">
+                                        <p>Supplied asset</p>
+                                    </div>
+                                    <div class="menu-icon-text">
+                                        <img src="./assets/javascript asset/Arrows/Vector-1.svg">
+                                        <p>Digital asset</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="right-dashboard-coin-container">
+                        <div class="right-coin-details">
+                            <img src="./assets/Ellipse 11.svg">
+                            <div class="right-coin-details-text">
+                                <p id="dappsText">Daaps Crypto</p>
+                                <p id="lowerDappsText">You borrowed 66.66 BNB from daaps lord</p>
+                            </div>
+                            <div class="last-right-coin-details">
+                                <p>5 min</p>
+                            </div>
+                            
+                        </div>
+
+                        <div class="right-coin-details">
+                            <img src="./assets/Ellipse 11.svg">
+                            <div class="right-coin-details-text">
+                                <p id="dappsText">Daaps Crypto</p>
+                                <p id="lowerDappsText">You borrowed 66.66 BNB from daaps lord</p>
+                            </div>
+                            <div class="last-right-coin-details">
+                                <p>5 min</p>
+                            </div>
+                            
+                        </div>
+
+                        <div class="right-coin-details">
+                            <img src="./assets/Ellipse 11.svg">
+                            <div class="right-coin-details-text">
+                                <p id="dappsText">Daaps Crypto</p>
+                                <p id="lowerDappsText">You borrowed 66.66 BNB from daaps lord</p>
+                            </div>
+                            <div class="last-right-coin-details">
+                                <p>5 min</p>
+                            </div>
+                            
+                        </div>
+
+                        <div class="right-coin-details">
+                            <img src="./assets/Ellipse 11.svg">
+                            <div class="right-coin-details-text">
+                                <p id="dappsText">Daaps Crypto</p>
+                                <p id="lowerDappsText">You borrowed 66.66 BNB from daaps lord</p>
+                            </div>
+                            <div class="last-right-coin-details">
+                                <p>5 min</p>
+                            </div>
+                            
+                        </div>
+
+                        <div class="right-coin-details">
+                            <img src="./assets/Ellipse 11.svg">
+                            <div class="right-coin-details-text">
+                                <p id="dappsText">Daaps Crypto</p>
+                                <p id="lowerDappsText">You borrowed 66.66 BNB from daaps lord</p>
+                            </div>
+                            <div class="last-right-coin-details">
+                                <p>5 min</p>
+                            </div>
+                            
+                        </div>
+
+                        
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="popup-container">
+                <div class="popup">
+                    <div class="popup-first-section">
+                        <p id="lend">Lend</p>
+                        <img id="cancelBtn" src="./popup asset/Cancel.svg">
+                    </div>
+                    <div class="popup-second-section">
+                        <div class="second-section-1">
+                            <p class="crypto-text">Crypto</p>
+                            <p class="token-amount">406.777</p>
+                        </div>
+                        <div class="second-section-2">
+                            <div class="second-section-1a">
+                                <img src="./popup asset/Ellipse 12.svg">
+                                <p>DOT</p>
+                            </div>
+                            <p id="enterLendingAmount">Enter Lending amount</p>
+                        </div>
+                    </div>
+                    <button id="popupBtn">Confirm</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-navbar">
+            <div class="mobile-navbar-icon">
+                <img src="./assets/Solid/house user.svg">
+                <img src="./assets/Users/users.svg">
+            </div>
+            
+            <img class="navbar-user" src="./assets/Ellipse 35.svg">
+            
+            <div class="mobile-navbar-icon2">
+                <img src="./assets/User Interface/Internet.svg">
+                <img src="./assets/Arrows/Connection.svg">
+            </div>
+        </div>
+
+        <!--  -->
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
